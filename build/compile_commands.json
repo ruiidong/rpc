@@ -1,0 +1,22 @@
+[
+{
+  "directory": "/home/lrd/rpc/build/src",
+  "command": "/usr/bin/g++ -Drpc_EXPORTS -I/home/lrd/rpc/src/include -I/home/lrd/rpc/example -g -fPIC -std=gnu++11 -o CMakeFiles/rpc.dir/rpcapplication.cc.o -c /home/lrd/rpc/src/rpcapplication.cc",
+  "file": "/home/lrd/rpc/src/rpcapplication.cc"
+},
+{
+  "directory": "/home/lrd/rpc/build/src",
+  "command": "/usr/bin/g++ -Drpc_EXPORTS -I/home/lrd/rpc/src/include -I/home/lrd/rpc/example -g -fPIC -std=gnu++11 -o CMakeFiles/rpc.dir/rpcprovider.cc.o -c /home/lrd/rpc/src/rpcprovider.cc",
+  "file": "/home/lrd/rpc/src/rpcprovider.cc"
+},
+{
+  "directory": "/home/lrd/rpc/build/example/callee",
+  "command": "/usr/bin/g++  -I/home/lrd/rpc/src/include -I/home/lrd/rpc/example -g -std=gnu++11 -o CMakeFiles/provider.dir/userservice.cc.o -c /home/lrd/rpc/example/callee/userservice.cc",
+  "file": "/home/lrd/rpc/example/callee/userservice.cc"
+},
+{
+  "directory": "/home/lrd/rpc/build/example/callee",
+  "command": "/usr/bin/g++  -I/home/lrd/rpc/src/include -I/home/lrd/rpc/example -g -std=gnu++11 -o CMakeFiles/provider.dir/__/user.pb.cc.o -c /home/lrd/rpc/example/user.pb.cc",
+  "file": "/home/lrd/rpc/example/user.pb.cc"
+}
+]

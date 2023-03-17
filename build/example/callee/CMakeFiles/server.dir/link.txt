@@ -1,0 +1,1 @@
+/usr/bin/g++ -g -rdynamic CMakeFiles/server.dir/main.cc.o -o ../../../bin/server   -L/home/lrd/rpc/lib 
