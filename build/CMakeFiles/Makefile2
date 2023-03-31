@@ -147,12 +147,12 @@ src/clean: src/CMakeFiles/rpc.dir/clean
 src/CMakeFiles/rpc.dir/all:
 	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/rpc.dir/build.make src/CMakeFiles/rpc.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/rpc.dir/build.make src/CMakeFiles/rpc.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lrd/rpc/build/CMakeFiles --progress-num=4,5,6 "Built target rpc"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lrd/rpc/build/CMakeFiles --progress-num=4,5,6,7 "Built target rpc"
 .PHONY : src/CMakeFiles/rpc.dir/all
 
 # Build rule for subdir invocation for target.
 src/CMakeFiles/rpc.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lrd/rpc/build/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lrd/rpc/build/CMakeFiles 4
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/rpc.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/lrd/rpc/build/CMakeFiles 0
 .PHONY : src/CMakeFiles/rpc.dir/rule
@@ -178,7 +178,7 @@ example/callee/CMakeFiles/provider.dir/all: src/CMakeFiles/rpc.dir/all
 
 # Build rule for subdir invocation for target.
 example/callee/CMakeFiles/provider.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lrd/rpc/build/CMakeFiles 6
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lrd/rpc/build/CMakeFiles 7
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 example/callee/CMakeFiles/provider.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/lrd/rpc/build/CMakeFiles 0
 .PHONY : example/callee/CMakeFiles/provider.dir/rule

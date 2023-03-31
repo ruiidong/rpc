@@ -5,6 +5,8 @@
 
 using namespace std;
 
+RpcConfig RpcApplication::rpcConfig_;
+
 void ShowArgsHelp()
 {
     cout << "Usage: provider -i <configfile>" << endl;
@@ -20,7 +22,7 @@ void RpcApplication::Init(int argc, char **argv)
 
     int c = 0;
     string config_file;
-    while(c = getopt(argc, argv, "i:") != -1)
+    while((c = getopt(argc, argv, "i:")) != -1)
     {
         switch (c)
         {
@@ -39,10 +41,17 @@ void RpcApplication::Init(int argc, char **argv)
             break;
         }
     }
+
+    rpcConfig_.LoadConfig(config_file.c_str());
 }
 
 RpcApplication &RpcApplication::GetInstance()
 {
     static RpcApplication app;
     return app;
+}
+
+RpcConfig& RpcApplication::getRpcConfig()
+{
+    return rpcConfig_;
 }

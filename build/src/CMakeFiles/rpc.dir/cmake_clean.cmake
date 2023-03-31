@@ -1,8 +1,10 @@
 file(REMOVE_RECURSE
+  "../../lib/librpc.a"
   "../../lib/librpc.pdb"
-  "../../lib/librpc.so"
   "CMakeFiles/rpc.dir/rpcapplication.cc.o"
   "CMakeFiles/rpc.dir/rpcapplication.cc.o.d"
+  "CMakeFiles/rpc.dir/rpcconfig.cc.o"
+  "CMakeFiles/rpc.dir/rpcconfig.cc.o.d"
   "CMakeFiles/rpc.dir/rpcprovider.cc.o"
   "CMakeFiles/rpc.dir/rpcprovider.cc.o.d"
 )

@@ -269,4 +269,171 @@ example/callee/CMakeFiles/provider.dir/userservice.cc.o: \
  /usr/local/include/google/protobuf/extension_set.h \
  /usr/include/c++/5/cassert /usr/local/include/google/protobuf/service.h \
  /home/lrd/rpc/src/include/rpcapplication.h \
- /home/lrd/rpc/src/include/rpcprovider.h
+ /home/lrd/rpc/src/include/rcpconfig.h \
+ /home/lrd/rpc/src/include/rpcprovider.h \
+ /usr/local/include/muduo/net/TcpConnection.h \
+ /usr/local/include/muduo/base/noncopyable.h \
+ /usr/local/include/muduo/base/StringPiece.h \
+ /usr/local/include/muduo/base/Types.h \
+ /usr/local/include/muduo/net/Callbacks.h \
+ /usr/local/include/muduo/base/Timestamp.h \
+ /usr/local/include/muduo/base/copyable.h \
+ /usr/include/boost/operators.hpp /usr/include/boost/config.hpp \
+ /usr/include/boost/config/user.hpp \
+ /usr/include/boost/config/select_compiler_config.hpp \
+ /usr/include/boost/config/compiler/gcc.hpp \
+ /usr/include/boost/config/select_stdlib_config.hpp \
+ /usr/include/boost/config/stdlib/libstdcpp3.hpp /usr/include/unistd.h \
+ /usr/include/x86_64-linux-gnu/bits/posix_opt.h \
+ /usr/include/x86_64-linux-gnu/bits/environments.h \
+ /usr/include/x86_64-linux-gnu/bits/confname.h /usr/include/getopt.h \
+ /usr/include/boost/config/select_platform_config.hpp \
+ /usr/include/boost/config/platform/linux.hpp \
+ /usr/include/boost/config/posix_features.hpp \
+ /usr/include/boost/config/suffix.hpp /usr/include/boost/iterator.hpp \
+ /usr/include/boost/detail/workaround.hpp \
+ /usr/local/include/muduo/net/Buffer.h \
+ /usr/local/include/muduo/net/Endian.h \
+ /usr/local/include/muduo/net/InetAddress.h /usr/include/netinet/in.h \
+ /usr/include/x86_64-linux-gnu/sys/socket.h \
+ /usr/include/x86_64-linux-gnu/sys/uio.h \
+ /usr/include/x86_64-linux-gnu/bits/uio.h \
+ /usr/include/x86_64-linux-gnu/bits/socket.h \
+ /usr/include/x86_64-linux-gnu/bits/socket_type.h \
+ /usr/include/x86_64-linux-gnu/bits/sockaddr.h \
+ /usr/include/x86_64-linux-gnu/asm/socket.h \
+ /usr/include/asm-generic/socket.h \
+ /usr/include/x86_64-linux-gnu/asm/sockios.h \
+ /usr/include/asm-generic/sockios.h \
+ /usr/include/x86_64-linux-gnu/bits/in.h /usr/include/boost/any.hpp \
+ /usr/include/boost/type_index.hpp \
+ /usr/include/boost/type_index/stl_type_index.hpp \
+ /usr/include/boost/type_index/type_index_facade.hpp \
+ /usr/include/boost/functional/hash_fwd.hpp \
+ /usr/include/boost/functional/hash/hash_fwd.hpp \
+ /usr/include/boost/static_assert.hpp \
+ /usr/include/boost/throw_exception.hpp \
+ /usr/include/boost/exception/exception.hpp \
+ /usr/include/boost/current_function.hpp \
+ /usr/include/boost/core/demangle.hpp /usr/include/c++/5/cxxabi.h \
+ /usr/include/x86_64-linux-gnu/c++/5/bits/cxxabi_tweaks.h \
+ /usr/include/boost/type_traits/is_const.hpp \
+ /usr/include/boost/type_traits/detail/cv_traits_impl.hpp \
+ /usr/include/boost/type_traits/is_reference.hpp \
+ /usr/include/boost/type_traits/config.hpp \
+ /usr/include/boost/type_traits/is_lvalue_reference.hpp \
+ /usr/include/boost/type_traits/detail/bool_trait_def.hpp \
+ /usr/include/boost/type_traits/detail/template_arity_spec.hpp \
+ /usr/include/boost/mpl/int.hpp /usr/include/boost/mpl/int_fwd.hpp \
+ /usr/include/boost/mpl/aux_/adl_barrier.hpp \
+ /usr/include/boost/mpl/aux_/config/adl.hpp \
+ /usr/include/boost/mpl/aux_/config/msvc.hpp \
+ /usr/include/boost/mpl/aux_/config/intel.hpp \
+ /usr/include/boost/mpl/aux_/config/gcc.hpp \
+ /usr/include/boost/mpl/aux_/config/workaround.hpp \
+ /usr/include/boost/mpl/aux_/nttp_decl.hpp \
+ /usr/include/boost/mpl/aux_/config/nttp.hpp \
+ /usr/include/boost/mpl/aux_/integral_wrapper.hpp \
+ /usr/include/boost/mpl/integral_c_tag.hpp \
+ /usr/include/boost/mpl/aux_/config/static_constant.hpp \
+ /usr/include/boost/mpl/aux_/static_cast.hpp \
+ /usr/include/boost/preprocessor/cat.hpp \
+ /usr/include/boost/preprocessor/config/config.hpp \
+ /usr/include/boost/mpl/aux_/template_arity_fwd.hpp \
+ /usr/include/boost/mpl/aux_/preprocessor/params.hpp \
+ /usr/include/boost/mpl/aux_/config/preprocessor.hpp \
+ /usr/include/boost/preprocessor/comma_if.hpp \
+ /usr/include/boost/preprocessor/punctuation/comma_if.hpp \
+ /usr/include/boost/preprocessor/control/if.hpp \
+ /usr/include/boost/preprocessor/control/iif.hpp \
+ /usr/include/boost/preprocessor/logical/bool.hpp \
+ /usr/include/boost/preprocessor/facilities/empty.hpp \
+ /usr/include/boost/preprocessor/punctuation/comma.hpp \
+ /usr/include/boost/preprocessor/repeat.hpp \
+ /usr/include/boost/preprocessor/repetition/repeat.hpp \
+ /usr/include/boost/preprocessor/debug/error.hpp \
+ /usr/include/boost/preprocessor/detail/auto_rec.hpp \
+ /usr/include/boost/preprocessor/tuple/eat.hpp \
+ /usr/include/boost/preprocessor/inc.hpp \
+ /usr/include/boost/preprocessor/arithmetic/inc.hpp \
+ /usr/include/boost/mpl/aux_/config/lambda.hpp \
+ /usr/include/boost/mpl/aux_/config/ttp.hpp \
+ /usr/include/boost/mpl/aux_/config/ctps.hpp \
+ /usr/include/boost/mpl/aux_/config/overload_resolution.hpp \
+ /usr/include/boost/type_traits/integral_constant.hpp \
+ /usr/include/boost/mpl/bool.hpp /usr/include/boost/mpl/bool_fwd.hpp \
+ /usr/include/boost/mpl/integral_c.hpp \
+ /usr/include/boost/mpl/integral_c_fwd.hpp \
+ /usr/include/boost/mpl/aux_/lambda_support.hpp \
+ /usr/include/boost/type_traits/detail/bool_trait_undef.hpp \
+ /usr/include/boost/type_traits/is_rvalue_reference.hpp \
+ /usr/include/boost/type_traits/ice.hpp \
+ /usr/include/boost/type_traits/detail/yes_no_type.hpp \
+ /usr/include/boost/type_traits/detail/ice_or.hpp \
+ /usr/include/boost/type_traits/detail/ice_and.hpp \
+ /usr/include/boost/type_traits/detail/ice_not.hpp \
+ /usr/include/boost/type_traits/detail/ice_eq.hpp \
+ /usr/include/boost/type_traits/is_volatile.hpp \
+ /usr/include/boost/type_traits/remove_cv.hpp \
+ /usr/include/boost/type_traits/detail/type_trait_def.hpp \
+ /usr/include/boost/type_traits/detail/type_trait_undef.hpp \
+ /usr/include/boost/type_traits/remove_reference.hpp \
+ /usr/include/boost/mpl/if.hpp /usr/include/boost/mpl/aux_/value_wknd.hpp \
+ /usr/include/boost/mpl/aux_/config/integral.hpp \
+ /usr/include/boost/mpl/aux_/config/eti.hpp \
+ /usr/include/boost/mpl/aux_/na_spec.hpp \
+ /usr/include/boost/mpl/lambda_fwd.hpp \
+ /usr/include/boost/mpl/void_fwd.hpp /usr/include/boost/mpl/aux_/na.hpp \
+ /usr/include/boost/mpl/aux_/na_fwd.hpp \
+ /usr/include/boost/mpl/aux_/lambda_arity_param.hpp \
+ /usr/include/boost/mpl/aux_/arity.hpp \
+ /usr/include/boost/mpl/aux_/config/dtp.hpp \
+ /usr/include/boost/mpl/aux_/preprocessor/enum.hpp \
+ /usr/include/boost/mpl/aux_/preprocessor/def_params_tail.hpp \
+ /usr/include/boost/mpl/limits/arity.hpp \
+ /usr/include/boost/preprocessor/logical/and.hpp \
+ /usr/include/boost/preprocessor/logical/bitand.hpp \
+ /usr/include/boost/preprocessor/identity.hpp \
+ /usr/include/boost/preprocessor/facilities/identity.hpp \
+ /usr/include/boost/preprocessor/empty.hpp \
+ /usr/include/boost/preprocessor/arithmetic/add.hpp \
+ /usr/include/boost/preprocessor/arithmetic/dec.hpp \
+ /usr/include/boost/preprocessor/control/while.hpp \
+ /usr/include/boost/preprocessor/list/fold_left.hpp \
+ /usr/include/boost/preprocessor/list/detail/fold_left.hpp \
+ /usr/include/boost/preprocessor/control/expr_iif.hpp \
+ /usr/include/boost/preprocessor/list/adt.hpp \
+ /usr/include/boost/preprocessor/detail/is_binary.hpp \
+ /usr/include/boost/preprocessor/detail/check.hpp \
+ /usr/include/boost/preprocessor/logical/compl.hpp \
+ /usr/include/boost/preprocessor/list/fold_right.hpp \
+ /usr/include/boost/preprocessor/list/detail/fold_right.hpp \
+ /usr/include/boost/preprocessor/list/reverse.hpp \
+ /usr/include/boost/preprocessor/control/detail/while.hpp \
+ /usr/include/boost/preprocessor/tuple/elem.hpp \
+ /usr/include/boost/preprocessor/facilities/expand.hpp \
+ /usr/include/boost/preprocessor/facilities/overload.hpp \
+ /usr/include/boost/preprocessor/variadic/size.hpp \
+ /usr/include/boost/preprocessor/tuple/rem.hpp \
+ /usr/include/boost/preprocessor/tuple/detail/is_single_return.hpp \
+ /usr/include/boost/preprocessor/variadic/elem.hpp \
+ /usr/include/boost/preprocessor/arithmetic/sub.hpp \
+ /usr/include/boost/mpl/or.hpp \
+ /usr/include/boost/mpl/aux_/config/use_preprocessed.hpp \
+ /usr/include/boost/mpl/aux_/nested_type_wknd.hpp \
+ /usr/include/boost/mpl/aux_/include_preprocessed.hpp \
+ /usr/include/boost/mpl/aux_/config/compiler.hpp \
+ /usr/include/boost/preprocessor/stringize.hpp \
+ /usr/include/boost/mpl/aux_/preprocessed/gcc/or.hpp \
+ /usr/include/boost/type_traits/decay.hpp \
+ /usr/include/boost/type_traits/is_array.hpp \
+ /usr/include/boost/type_traits/is_function.hpp \
+ /usr/include/boost/type_traits/detail/false_result.hpp \
+ /usr/include/boost/type_traits/detail/is_function_ptr_helper.hpp \
+ /usr/include/boost/type_traits/remove_bounds.hpp \
+ /usr/include/boost/type_traits/add_pointer.hpp \
+ /usr/include/boost/mpl/eval_if.hpp /usr/include/boost/mpl/identity.hpp \
+ /usr/include/boost/type_traits/add_reference.hpp \
+ /usr/include/boost/utility/enable_if.hpp \
+ /usr/include/boost/core/enable_if.hpp \
+ /usr/include/boost/type_traits/is_same.hpp

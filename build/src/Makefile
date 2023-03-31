@@ -154,6 +154,30 @@ rpcapplication.cc.s:
 	cd /home/lrd/rpc/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/rpc.dir/build.make src/CMakeFiles/rpc.dir/rpcapplication.cc.s
 .PHONY : rpcapplication.cc.s
 
+rpcconfig.o: rpcconfig.cc.o
+.PHONY : rpcconfig.o
+
+# target to build an object file
+rpcconfig.cc.o:
+	cd /home/lrd/rpc/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/rpc.dir/build.make src/CMakeFiles/rpc.dir/rpcconfig.cc.o
+.PHONY : rpcconfig.cc.o
+
+rpcconfig.i: rpcconfig.cc.i
+.PHONY : rpcconfig.i
+
+# target to preprocess a source file
+rpcconfig.cc.i:
+	cd /home/lrd/rpc/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/rpc.dir/build.make src/CMakeFiles/rpc.dir/rpcconfig.cc.i
+.PHONY : rpcconfig.cc.i
+
+rpcconfig.s: rpcconfig.cc.s
+.PHONY : rpcconfig.s
+
+# target to generate assembly for a file
+rpcconfig.cc.s:
+	cd /home/lrd/rpc/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/rpc.dir/build.make src/CMakeFiles/rpc.dir/rpcconfig.cc.s
+.PHONY : rpcconfig.cc.s
+
 rpcprovider.o: rpcprovider.cc.o
 .PHONY : rpcprovider.o
 
@@ -190,6 +214,9 @@ help:
 	@echo "... rpcapplication.o"
 	@echo "... rpcapplication.i"
 	@echo "... rpcapplication.s"
+	@echo "... rpcconfig.o"
+	@echo "... rpcconfig.i"
+	@echo "... rpcconfig.s"
 	@echo "... rpcprovider.o"
 	@echo "... rpcprovider.i"
 	@echo "... rpcprovider.s"

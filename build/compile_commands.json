@@ -1,12 +1,17 @@
 [
 {
   "directory": "/home/lrd/rpc/build/src",
-  "command": "/usr/bin/g++ -Drpc_EXPORTS -I/home/lrd/rpc/src/include -I/home/lrd/rpc/example -g -fPIC -std=gnu++11 -o CMakeFiles/rpc.dir/rpcapplication.cc.o -c /home/lrd/rpc/src/rpcapplication.cc",
+  "command": "/usr/bin/g++  -I/home/lrd/rpc/src/include -I/home/lrd/rpc/example -g -std=gnu++11 -o CMakeFiles/rpc.dir/rpcapplication.cc.o -c /home/lrd/rpc/src/rpcapplication.cc",
   "file": "/home/lrd/rpc/src/rpcapplication.cc"
 },
 {
   "directory": "/home/lrd/rpc/build/src",
-  "command": "/usr/bin/g++ -Drpc_EXPORTS -I/home/lrd/rpc/src/include -I/home/lrd/rpc/example -g -fPIC -std=gnu++11 -o CMakeFiles/rpc.dir/rpcprovider.cc.o -c /home/lrd/rpc/src/rpcprovider.cc",
+  "command": "/usr/bin/g++  -I/home/lrd/rpc/src/include -I/home/lrd/rpc/example -g -std=gnu++11 -o CMakeFiles/rpc.dir/rpcconfig.cc.o -c /home/lrd/rpc/src/rpcconfig.cc",
+  "file": "/home/lrd/rpc/src/rpcconfig.cc"
+},
+{
+  "directory": "/home/lrd/rpc/build/src",
+  "command": "/usr/bin/g++  -I/home/lrd/rpc/src/include -I/home/lrd/rpc/example -g -std=gnu++11 -o CMakeFiles/rpc.dir/rpcprovider.cc.o -c /home/lrd/rpc/src/rpcprovider.cc",
   "file": "/home/lrd/rpc/src/rpcprovider.cc"
 },
 {
